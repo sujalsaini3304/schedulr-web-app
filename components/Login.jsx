@@ -19,7 +19,7 @@ import { useNavigate } from "react-router";
 import useStore from "../store.js";
 
 const Login = () => {
-  const { setIsLoggedIn , setUserEmail  } = useStore();
+  const { setIsLoggedIn, setUserEmail } = useStore();
   const {
     register,
     handleSubmit,
